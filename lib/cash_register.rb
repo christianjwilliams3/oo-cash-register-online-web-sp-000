@@ -37,7 +37,11 @@ def items
 end
 
 def void_last_transaction
+<<<<<<< HEAD
   #binding.pry
+=======
+  binding.pry
+>>>>>>> 4ed0abdf647a499b29271d0db20373229568f941
   self.total = @total - @transactions.pop
 end
 end 
